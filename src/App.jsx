@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Events from "./pages/Events";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/blog" element={<Blog />}></Route>
         </Routes>
+        <Footer />
       </Router>
     </>
   );
