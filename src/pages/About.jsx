@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 function About() {
   useEffect(() => {
-    document.title = "About";
+    document.title = "About - Dev Sol";
   });
   return (
     <>
